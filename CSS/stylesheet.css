@@ -1,8 +1,9 @@
+body{
+    background-color: #8C6CB2;
+}
 nav{
     background-color: #EAD7D7;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    border-color: 10px solid #8C6CB2;
+    padding: 2px;
     text-align: center;
     position: relative;
 }
