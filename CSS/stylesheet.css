@@ -8,6 +8,7 @@ nav{
     padding: 2px;
     text-align: center;
     position: relative;
+    margin-bottom: 10px;
 }
 .bullet{
     list-style-type: none;
@@ -20,15 +21,26 @@ nav{
 }
 
 .gym{
-    position: relative;
+    float:right;
     right: 10px;
 }
 
+.clear{
+    clear: both;
+}
 footer{
     background-color: #EAD7D7;
 }
 
 main{
     background-color: #EAD7D7;
+}
+
+.centre{
+    text-align: center;
+}
+
+.class-ul{
+    background-color: #CFBBD2;
 }
 
