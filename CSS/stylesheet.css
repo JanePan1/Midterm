@@ -1,21 +1,36 @@
 body{
     background-color: #8C6CB2;
-    font-family: 'Bree Serif', serif;
+    
     font-family: 'Montserrat', sans-serif;
 }
 nav{
     background-color: #EAD7D7;
     padding: 2px;
-    text-align: center;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 10px;
+    /* position: relative; */
     margin-bottom: 10px;
+
 }
 .bullet{
     list-style-type: none;
+    text-align: center;
+
 }
 
+li a:link{
+    color: darkslateblue;
+}
+
+li a:visited{
+    color: rgb(100,8,80);
+}
+
+
 .home{
-    position:absolute;
+
+    float: left;
     left: 0;
     top: 0;
 }
@@ -42,5 +57,40 @@ main{
 
 .class-ul{
     background-color: #CFBBD2;
+
 }
 
+.bsfont{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+}
+
+
+#dashedline {
+    border-bottom: 3px dashed black;
+}
+h1{
+    text-align: center;
+}
+
+.position {
+    /* position: relative; */
+}
+
+header{
+ 
+    /* background-color: white; You can adjust the background color as needed */
+    /* z-index: 100; */
+}
+main {
+    /* Add some padding or margin to create space at the top of the content so it's not hidden by the fixed header */
+    margin-top: 160px; /* Adjust this value as needed based on your header's height */
+}
+
+div > li{
+    list-style-type: square;
+}
+
+.centre.bsfont{
+    padding-bottom: 6px;
+}
