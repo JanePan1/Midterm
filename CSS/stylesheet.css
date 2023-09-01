@@ -1,0 +1,46 @@
+body{
+    background-color: #8C6CB2;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    background-color: #EAD7D7;
+    padding: 2px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+.bullet{
+    list-style-type: none;
+}
+
+.home{
+    position:absolute;
+    left: 0;
+    top: 0;
+}
+
+.gym{
+    float:right;
+    right: 10px;
+}
+
+.clear{
+    clear: both;
+}
+footer{
+    background-color: #EAD7D7;
+}
+
+main{
+    background-color: #EAD7D7;
+}
+
+.centre{
+    text-align: center;
+}
+
+.class-ul{
+    background-color: #CFBBD2;
+}
+
